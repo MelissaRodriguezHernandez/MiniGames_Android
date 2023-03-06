@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scorefondo">
+
+        <Spinner
+            android:id="@+id/score_selector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30sp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30sp"
+            tools:ignore="ObsoleteLayoutParam,SpeakableTextPresentCheck" />
+
+        <ListView
+            android:id="@+id/recycler_view_scores_dm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20sp"
+            android:layout_below="@id/score_selector"
+            android:background="@drawable/fondoshape"
+            android:dividerHeight="10dp"
+            android:padding="30dp"
+            tools:ignore="ObsoleteLayoutParam" />
+
+        <ListView
+            android:id="@+id/recycler_view_scores_lo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/score_selector"
+            android:background="@drawable/fondoshape"
+            android:layout_alignTop="@id/recycler_view_scores_dm"
+            android:dividerHeight="10dp"
+            android:padding="30dp"
+            tools:ignore="ObsoleteLayoutParam"
+            android:layout_marginBottom="20sp"/>
+
+
+</RelativeLayout>

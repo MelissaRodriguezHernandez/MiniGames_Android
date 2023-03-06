@@ -1,0 +1,11 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_margin="20sp"
+    android:background="@drawable/shape_spinner"
+    android:fontFamily="@font/concert_one"
+    android:textAlignment="center"
+    android:textSize="40sp"
+    android:textColor="#EFE5EC"/>

@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/game_over_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game Over"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/game_over_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Score was: "
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/player_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:text="@string/name_inputdm"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escape"
+        android:textColor="@color/white"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/play_again_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/retry"
+        android:textColor="@color/white"
+        android:enabled="false"/>
+
+</LinearLayout>

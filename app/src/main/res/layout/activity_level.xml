@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginVertical="100sp">
+
+        <Button
+            android:id="@+id/easy_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fondoshape"
+            android:fontFamily="@font/concert_one"
+            android:paddingTop="10sp"
+            android:paddingBottom="20sp"
+            android:layout_margin="10sp"
+            android:text="@string/easy"
+            android:textColor="@color/white"
+            android:textSize="@dimen/menu_item_size"
+            tools:ignore="SpUsage" />
+
+        <Button
+            android:id="@+id/medium_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fondoshape"
+            android:fontFamily="@font/concert_one"
+            android:layout_margin="10sp"
+            android:paddingTop="10sp"
+            android:paddingBottom="20sp"
+            android:text="@string/medium"
+            android:textColor="@color/white"
+            android:textSize="@dimen/menu_item_size"
+            tools:ignore="SpUsage" />
+
+        <Button
+            android:id="@+id/hard_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fondoshape"
+            android:fontFamily="@font/concert_one"
+            android:layout_margin="10sp"
+            android:paddingTop="10sp"
+            android:paddingBottom="20sp"
+            android:text="@string/hard"
+            android:textColor="@color/white"
+            android:textSize="@dimen/menu_item_size"
+            tools:ignore="SpUsage" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

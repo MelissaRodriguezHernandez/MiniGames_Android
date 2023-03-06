@@ -1,0 +1,32 @@
+package com.example.minigames.LO;
+
+/**
+ * Interface représentant une grille de jeu. L'origine (coordonnée (0,0)) se
+ * trouve en haut à gauche du tableau. Une coordonée représente le couple
+ * (ligne, colonne)
+ *
+ * @author MOLLIN Florian
+ */
+public interface GridInterface {
+    /**
+     * Nombre de lignes de la grille
+     *
+     * @return Le nombre de ligne de la grille
+     */
+    int rows();
+
+    /**
+     * Nombre de colonnes de la grille
+     *
+     * @return Le nombre de colonnes de la grille
+     */
+    int columns();
+
+    /**
+     * Test si une case est active ou non
+     *
+     * @param coord La coordonnée de la case à tester
+     * @return Vrai si la case est active
+     */
+    boolean isActivated(Coord coord);
+}

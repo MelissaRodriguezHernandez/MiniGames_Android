@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondodosmil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="20sp">
+
+        <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fondoshape"
+            android:text="@string/score"
+            android:fontFamily="@font/concert_one"
+            android:paddingTop="15sp"
+            android:paddingBottom="25sp"
+            android:paddingLeft="20sp"
+            android:paddingRight="25sp"
+            android:layout_margin="5sp"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            tools:ignore="InefficientWeight,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/scoreTextViewBest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/best_score"
+            android:fontFamily="@font/concert_one"
+            android:layout_margin="5sp"
+            android:paddingTop="15sp"
+            android:paddingBottom="25sp"
+            android:paddingLeft="20sp"
+            android:paddingRight="25sp"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:background="@drawable/fondoshape"
+            tools:ignore="InefficientWeight,RtlHardcoded" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button_rule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_gravity="center_vertical"
+            android:text="@string/rules"
+            android:textSize="20sp"
+            android:fontFamily="@font/concert_one"/>
+
+        <ImageButton
+            android:id="@+id/reset_button_R"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_gravity="center_vertical"
+            android:backgroundTint="#5C3875"
+            android:src="@drawable/ic_baseline_replay_24"
+            android:fontFamily="@font/concert_one"
+            style="@style/Widget.AppCompat.Button"
+            tools:ignore="ContentDescription"/>
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/boardLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="15sp"
+        android:padding="25dp"
+        android:background="@drawable/fondoshape"
+        tools:ignore="InefficientWeight">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/cell_0_0"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+            <TextView
+                android:id="@+id/cell_0_1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+            <TextView
+                android:id="@+id/cell_0_2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+            <TextView
+                android:id="@+id/cell_0_3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/cell_1_0"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+            <TextView
+                android:id="@+id/cell_1_1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+            <TextView
+                android:id="@+id/cell_1_2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+            <TextView
+                android:id="@+id/cell_1_3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/cell_2_0"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+            <TextView
+                android:id="@+id/cell_2_1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+            <TextView
+                android:id="@+id/cell_2_2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+            <TextView
+                android:id="@+id/cell_2_3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/cell_3_0"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+            <TextView
+                android:id="@+id/cell_3_1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+            <TextView
+                android:id="@+id/cell_3_2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+            <TextView
+                android:id="@+id/cell_3_3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:background="@drawable/fondo_tile" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
+

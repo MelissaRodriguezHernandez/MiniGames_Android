@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Been There, </string>
+    <string name="help">Help Screen</string>
+    <string name="menu">Main Menu Screen</string>
+    <string name="settings">Settings Screen</string>
+    <string name="game">Game Screen</string>
+    <string name="scores">Scores Screen</string>
+    <string name="app_logo_top">MINI</string>
+    <string name="app_logo_bottom">GAMES</string>
+    <string name="app_version_info">Version 1.0.0\nCopyright © 2022 Melissa\nAll Rights Reserved.</string>
+    <string name="todo">TODO</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="menu_item_play">Select Game</string>
+    <string name="menu_item_scores">View Scores</string>
+    <string name="menu_item_help">Help</string>
+    <string name="textview">TextView</string>
+    <string name="titulo1">Mini</string>
+    <string name="titulo2">GAMES</string>
+    <string name="easy">EASY</string>
+    <string name="medium">MEDIUM</string>
+    <string name="hard">HARD</string>
+    <string name="_00_00">00:00</string>
+    <string name="hint">Hint</string>
+    <string name="settings_title">Settings</string>
+    <string name="music_settings">Music</string>
+    <string name="rules">Rules</string>
+    <string name="score">Score: <br/> %d</string>
+    <string name="score_label">Score:</string>
+    <string name="rules_Lo">
+            Objective: \n The goal of the game is to turn off all the lights on the board.\n\n
+
+            Gameplay: \nClicking a cell toggles the light for that cell and its adjacent cells.
+        The game is won when all lights on the board are turned off.\n\n
+    </string>
+    <string name="left_button_label">Left</string>
+    <string name="right_button_label">Right</string>
+    <string name="up_button_label">Up</string>
+    <string name="down_button_label">Down</string>
+    <string name="best_score">Best: 0</string>
+    <string name="game_over_message">GAME OVER</string>
+    <string name="new_game_button">Accept</string>
+    <string name="quit_button">Leave</string>
+    <string name="name_inputdm" />
+    <string name="help_text" tools:ignore="StringEscaping">
+        Welcome to our collection of fun and challenging mini-games! \n
+        This guide will help you understand the basic rules and mechanics of each game so you can start playing and having fun.\n\n
+
+        Navigation:\n
+        The main screen of the app displays a list of available games.\n
+        Simply tap on start option, select game you can start playing.\n\n
+
+        Settings:\n
+        The settings menu allows you to customize the app to your preferences .\n\n
+
+        View Score:\n
+        The leaderboard displays the high scores of all players who have played the games.\n
+        You can filter the leaderboard by game and by time period.\n
+        To add your score to the leaderboard, simply play a game and achieve a high score.\n\n
+
+        We hope you enjoy our collection of mini-games and have fun playing them!\n
+    </string>
+    <string name="rule_2048">
+        Objective: \n
+        The goal of the game is to combine tiles with the same number to create a tile with the number 2048.\n\n
+
+        Gameplay: \n
+        Swipe the tiles to move them in any direction.
+        When two tiles with the same number touch, they merge into one.
+        After each move, a new tile will appear on the board. Keep combining tiles until you create a tile with the number 2048.\n\n
+
+        Scoring: \n
+        Your score is based on the value of the tiles you combine.
+        Each time you combine two tiles, their value is added to your score.
+        The game ends when you reach 2048, or when you can no longer make a move.\n\n
+
+    </string>
+    <string name="click">0</string>
+    <string name="solution">Solution</string>
+    <string name="games">Games</string>
+    <string name="menu_menu">Menu</string>
+    <string name="escape">Escape</string>
+    <string name="retry">Retry</string>
+</resources>

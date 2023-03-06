@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/help">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="20sp"
+        android:padding="10sp"
+        android:background="@drawable/fondoshape"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/text_help_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:fontFamily="@font/concert_one"
+            android:gravity="center"
+            android:padding="20sp"
+            android:text="Help"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            tools:ignore="HardcodedText" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:fontFamily="@font/concert_one"
+                    android:padding="15sp"
+                    android:text="@string/help_text"
+                    android:textAlignment="textStart"
+                    android:textColor="#ABFFFFFF"
+                    android:textSize="15sp"
+                    tools:ignore="SmallSp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
